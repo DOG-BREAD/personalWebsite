@@ -1,0 +1,121 @@
+body{
+
+  display: block;
+  position: relative;
+  text-align: center;
+  margin:0;
+  background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+}
+
+p{
+  text-align: center;
+  color: #EAFDFC;
+}
+h1{
+  text-align: center;
+  color: #EAFDFC;
+  width:100%;
+  font-size: 30px;
+  margin: 0 auto 0 auto;
+}
+
+hr{
+  color: #EAFDFC;
+  height: 10px;
+
+  border:none;
+  text-align: center;
+  border-top: double;
+}
+
+.profile-div{
+  border-radius: 10%;
+  background-color: rgba(129,12,168, .5);
+  position: relative;
+  display:block;
+  padding: 150px 150px;
+  margin: 40px;
+}
+.profile-image{
+  opacity: 1;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  display: block;
+  float: left;
+}
+.profile-div:hover{
+  background-image: url(https://media3.giphy.com/media/J20KhwQ6sL0CGiEVrz/giphy.gif?cid=ecf05e47zretg1cpr27v61niat9vijetza6gbyxrj9a5u1c7&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.top-container{
+  background-color: rgba(248,244,234,.5) ;
+  display: block;
+  position: relative;
+  margin: 40px;
+  border-radius: 10%;
+  padding: 30px 30px;
+}
+.middle-container{
+  position: relative;
+}
+.bottom-container{
+  position: fixed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  bottom: 0;
+  left: 25%;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: #EAFDFC;
+}
+
+.contact-me{
+  position: relative;
+}
+.background{
+  display: inline;
+  position: absolute;
+}
+.profilePrompt{
+  font-size: 50px;
+  font-weight: bold;
+}
+.btn {
+  background: #cc09e6;
+  background-image: -webkit-linear-gradient(top, #cc09e6, #5d5e5e);
+  background-image: -moz-linear-gradient(top, #cc09e6, #5d5e5e);
+  background-image: -ms-linear-gradient(top, #cc09e6, #5d5e5e);
+  background-image: -o-linear-gradient(top, #cc09e6, #5d5e5e);
+  background-image: linear-gradient(to bottom, #cc09e6, #5d5e5e);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 40px 8px 40px;
+  border: solid #000000 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #656666;
+  background-image: -webkit-linear-gradient(top, #656666, #5d5e5e);
+  background-image: -moz-linear-gradient(top, #656666, #5d5e5e);
+  background-image: -ms-linear-gradient(top, #656666, #5d5e5e);
+  background-image: -o-linear-gradient(top, #656666, #5d5e5e);
+  background-image: linear-gradient(to bottom, #656666, #5d5e5e);
+  text-decoration: none;
+}
